@@ -1,4 +1,8 @@
-# https://www.reddit.com/r/dailyprogrammer/comments/aphavc/20190211_challenge_375_easy_print_a_new_number_by/
+"""
+author = yousif majid
+date = 2019-03-17
+link = https://www.reddit.com/r/dailyprogrammer/comments/aphavc/20190211_challenge_375_easy_print_a_new_number_by/
+"""
 
 
 def add_one_simple():
@@ -8,6 +12,7 @@ def add_one_simple():
         nn = int(n)+1
         new_number.append(nn)
     return int(''.join(map(str, new_number)))
+
 
 def add_one_complex():
     number = int(input('Enter a number: '))
